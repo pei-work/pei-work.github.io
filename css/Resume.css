@@ -1,0 +1,39 @@
+
+			h1{
+				color:Blue;
+				text-align:center;
+			}
+			h3{
+				color:Red;
+			}
+			body{
+				background-color: #f2efe3;
+			}
+			#EXPERIENCE h3 {
+				color:purple;
+			} 
+			#Education h1, h2 {
+				color:#ff0073
+			}
+			#Leadership h3{
+				color: #0a1d7d
+			}
+		body {
+			margin: 0;
+			overflow: hidden;
+			}
+
+		canvas {
+			background-image: radial-gradient(#666, #333);
+			}
+		
+			#instructions {
+				position: absolute;
+			color: #ff8c00;
+			bottom: 0;
+			padding-bottom: 6px;
+			font-family: sans-serif;
+			width: 100%;
+			text-align: center;
+			pointer-events: none;
+			}

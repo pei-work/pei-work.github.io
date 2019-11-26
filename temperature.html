@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fahrenheit to Celsius Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="css/Resume.css">
+	<script src="js/myScript.js"></script>
+</head>
+<body>
+	<!-- Bonus: 
+		1. Add navigation bar to this page.
+		2. What if we want to apply a different stylesheet to this page?
+		3. What if we want to add the ability to convert celsius to farenheit too?  -->
+
+
+<h2>Temperature Converter</h2>
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+  <!-- This event occurs when the value of an <input> or <textarea> element is changed. -->
+
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
+
+
+
+</body>
+</html>
+
